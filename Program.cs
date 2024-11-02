@@ -9,7 +9,7 @@ namespace Fordonsbesiktning
 {
     class Program
     {
-        static string connectionString = "Server=(local);Database=FordonsbesiktningRakan;Trusted_Connection=True";
+        static string connectionString = "Server=(local);Database=Fordonsbesiktning;Trusted_Connection=True";
         private static ConsoleKeyInfo keyPressed;
         static List<Reservation> reservationList = new List<Reservation>();
         static List<Inspection> inspectionList = new List<Inspection>();
